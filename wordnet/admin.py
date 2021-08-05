@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import BanglaEnglishRelations, BanglaWords, EnglishWords, Senses
+
+admin.site.register(BanglaWords)
+admin.site.register(EnglishWords)
+admin.site.register(Senses)
+admin.site.register(BanglaEnglishRelations)
